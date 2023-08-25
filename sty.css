@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    background-color: rgba(243, 183, 55, 0.566);
+}
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.question-container {
+    margin-top: 20px;
+}
+.choices{
+    padding: 0px;
+}
+.choice{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 10px ;
+    border: 1px solid #543e3e;
+    cursor: pointer;
+    background-color: rgb(28, 212, 145);
+}
+.controls {
+    margin-top: 20px;
+    text-align: center;
+}
+#progress {
+    margin-top: 20px;
+}
+#score {
+    margin-top: 20px;
+    font-weight: bold;
+}

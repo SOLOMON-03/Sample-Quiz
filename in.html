@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sty.css">
+    <title>Quiz Website</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1 style="color: rgb(236, 16, 16);">Simple JavaScript Quiz App</h1>
+        <div class="question-container-hover">
+            <p id="question" style="text-align: left;"></p>
+            <ul id="choices" class="choices">
+                <li><button class="choice"></button></li>
+                <li><button class="choice"></button></li>
+                <li><button class="choice"></button></li>
+                <li><button class="choice"></button></li>
+            </ul>
+        </div>
+        <div class="controls">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton">Next</button>
+        </div>
+        <div id="progress">Question x of y</div>
+        <div id="score"></div>
+    </div>
+    <script src="sct.js"></script>
+</body>
+</html>
